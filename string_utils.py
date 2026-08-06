@@ -1,4 +1,4 @@
-def read_raw_input(prompt: str ) -> str:
+def read_raw_input(prompt: str = "Enter text: " ) -> str:
     return input(prompt).strip()
 
 
